@@ -1,0 +1,61 @@
+*{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h2 strong, h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: teal;
+}
+
+address {
+    letter-spacing: 3px;
+}
+
+address strong{
+    color: lightgray;
+    background-color: lightseagreen;
+}
+
+.text-right {
+    text-align: right;
+}
+
+p.text-right {
+    font-weight: bold;
+}
+
+#starting-dates, #starting-dates *, #exotic, #exotic * {
+    background-color: #bac6fd;
+}
+
+a {
+    color: red;
+}
+
+#subject, #subject * {
+    background: #ccd4fa;
+}
+
+#firma {
+    line-height: 25px;
+    font-size: 1.5em;
+    font-family: cursive;
+    color: rgb(0, 4, 44);
+}
+
+.moto {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.exoticTitles {
+    color: darkblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 900;
+    word-spacing: 5px;
+    text-decoration: underline;
+}
