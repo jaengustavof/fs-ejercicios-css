@@ -1,0 +1,110 @@
+body{
+    background-image: url('assets/trippy.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.principe {
+    transform: translate(10%,0);
+}
+
+.princesa {
+    transform: translate(10%, 50px);
+}
+
+.hada {
+    transform: translate(10%, 100px);
+}
+
+.rana {
+    transform: translate(10%, 150px);
+}
+
+.buenos img {
+    width: 100px;
+    animation: buenos 1s infinite linear;
+
+}
+
+@keyframes buenos {
+    25% {transform: translateX(50px);}
+    50% {transform: translateX(100px);}
+    75% {transform: translateX(50px);}
+    100% {transform: translateX(0%);}
+    
+}
+
+
+.castillo {
+    transform: translate(45%,-425%);  
+}
+
+.castillo img {
+    width: 150px;
+}
+
+.lampara {
+    transform: translate(45%,-625%);   
+}
+
+.espada {
+    transform: translate(45%,-625%);   
+}
+
+.espada img {
+    width: 150px;
+}
+
+.manzana {
+    transform: translate(47%,-325%);  
+}
+
+.inanimados img {
+    animation: inanimados 4s infinite linear;
+}
+
+@keyframes inanimados {
+    0%   {transform: rotate(-45deg);}
+    25%   {transform: rotate(45deg);}
+    50% {transform: rotate(135deg);}
+    75% {transform: rotate(225deg);}
+    100% {transform: rotate(315deg);}
+}
+
+.malos img {
+    width: 120px;
+    cursor: pointer;
+}
+
+.bruja {
+    transform: translate(75%,-500%) matrix(1, 0, 0.3, 1.1, 0.2, 0.8);  
+    transition: 1s;
+}
+
+.dragon {
+    transform: translate(75%,-650%);  
+    transition: 2s;
+}
+
+.nomo {
+    transform: translate(75%,-420%);  
+}
+
+.bruja img:hover {
+    transform: skew(20deg,10deg);
+    transition: 1s;
+}
+
+.dragon img:hover {
+    transform: scale(1.8);
+    transition: 2s;
+}
+
+.nomo img:hover {
+    transform: rotate(360deg);
+    transition: 5s;
+}
