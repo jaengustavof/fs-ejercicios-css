@@ -1,0 +1,54 @@
+body{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+     padding: 40px;
+     background-image: url('assets/img/fondo.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Limelight', cursive;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h1{ 
+    font-size: 50px;
+}
+
+h2{ 
+    font-size: 40px;
+}
+h3{ 
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.news1 {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+
+.news1 img {
+    width: 100%;
+    margin: auto;
+    mix-blend-mode: luminosity;
+}
+
+.planta {
+    width: 60%!important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
