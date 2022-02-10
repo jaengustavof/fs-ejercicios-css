@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    padding: 20px;
+}
+
+header, footer, #hero, #content, aside, footer {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+header, footer, #hero {
+    width: 100%;
+    height: 15%;
+}
+
+header {
+    background: rgb(91, 148, 235);
+}
+
+#hero {
+    background: rgb(233, 55, 55);
+}
+
+section {
+    width: 100%;
+    height: 55%;
+    background: black;
+    display: block;
+}
+
+#content{
+    width: 100%;
+    height: 60%;
+    background: rgb(9, 168, 9);
+}
+
+aside{
+    width: 100%;
+    height: 40%; 
+    background: rgb(99, 29, 190);
+}
+
+footer {
+    background: rgb(116, 114, 114);
+}
+
+
+
+
+/* laptop */
+@media screen and (min-width: 1024px) {
+    header, footer, #hero, #content, aside, footer {
+        padding: 2%;
+    }
+    section {
+        max-width: 70%;
+        margin: auto;
+    }
+    
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+    section {
+        display: flex;
+    }
+    #content {
+        height: 100%;
+        width: 65%;
+    }
+    aside {
+        height: 100%;
+        width: 35%;
+    }
+    aside, #content {
+        justify-content: space-around;
+    }
+
+}
+/* smat phone */
+@media screen and (max-width: 478px) {}
